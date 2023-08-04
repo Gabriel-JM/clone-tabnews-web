@@ -1,0 +1,20 @@
+{
+  "name": "clone-tabnews-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "check": "ncu"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^16.10.17",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.8"
+  },
+  "dependencies": {
+    "lithen-fns": "^2.0.0"
+  }
+}
